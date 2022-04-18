@@ -50,11 +50,13 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .main__item-name {
   font-weight: 500;
-  font-size: 3.7vw;
+  font-size: 3.6vw;
+  width: 70%;
 }
 
 .main__item-description {
@@ -66,7 +68,8 @@ main {
 
 .main__item-price {
   font-weight: 400;
-  font-size: 3.7vw;
+  font-size: 3.6vw;
+  text-align: right;
 }
 
 footer {
