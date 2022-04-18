@@ -46,21 +46,27 @@ main {
   height: 95%;
 }
 
+.main__item-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .main__item-name {
   font-weight: 500;
-  font-size: 3.5vw;
+  font-size: 3.7vw;
 }
 
 .main__item-description {
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 3.2vw;
   color: #4d4d4d;
-  width: 50vw;
+  width: 55vw;
 }
 
 .main__item-price {
   font-weight: 400;
-  font-size: 3.5vw;
+  font-size: 3.7vw;
 }
 
 footer {
