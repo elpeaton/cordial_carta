@@ -12,6 +12,20 @@ html {
   font-family: "Neue Haas Grotesk Text", "sans-serif";
 }
 
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
 @font-face {
   font-family: "Neue Haas Grotesk Text";
   src: url("assets/fonts/NHaasGroteskTXPro-55Rg.otf");
@@ -20,8 +34,16 @@ html {
   font-weight: 400, normal;
 }
 
-main {
+.carta {
   min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+main {
+  height: 95%;
 }
 
 .main__item-name {
@@ -39,4 +61,14 @@ main {
 .main__item-price {
   font-weight: 400;
   font-size: 3.5vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 5%;
+}
+
+.footer__logo {
 }
