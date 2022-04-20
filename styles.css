@@ -15,6 +15,7 @@ html {
 html,
 body {
   height: 100%;
+  background-color: #ffbd5e;
 }
 
 img,
@@ -40,10 +41,24 @@ svg {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  background-image: url("./assets/imgs/bgFondo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
 }
 
 main {
   height: 95%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.main__item {
+  margin-bottom: 10px;
 }
 
 .main__item-title {
