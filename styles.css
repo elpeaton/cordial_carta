@@ -49,7 +49,7 @@ svg {
 }
 
 main {
-  max-height: 95%;
+  max-height: 90vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -67,33 +67,35 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .main__item-name {
   font-weight: 500;
-  font-size: 3.6vw;
+  /* font-size: 3.6vw; */
+  font-size: clamp(1.5rem, 3.6vw, 4rem);
   width: 70%;
-}
-
-.main__item-description {
-  font-weight: 400;
-  font-size: 3.2vw;
-  color: #4d4d4d;
-  width: 55vw;
 }
 
 .main__item-price {
   font-weight: 400;
-  font-size: 3.6vw;
+  font-size: clamp(1.5rem, 3.6vw, 4rem);
   text-align: right;
+}
+
+.main__item-description {
+  font-weight: 400;
+  /* font-size: 3.2vw; */
+  font-size: clamp(0.8rem, 3.1vw, 3rem);
+  color: #4d4d4d;
+  width: 60vw;
 }
 
 footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 5%;
+  height: 7%;
 }
 
 .footer__logo {
