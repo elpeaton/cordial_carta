@@ -37,9 +37,12 @@ svg {
 
 .carta {
   min-width: 320px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 1fr 10fr 1fr;
   height: 100vh;
   background-image: url("./assets/imgs/bgFondo.png");
   background-size: cover;
@@ -48,9 +51,11 @@ svg {
   mix-blend-mode: multiply;
   padding: 20px 20px 0 20px;
 }
-
+header {
+  grid-area: header;
+}
 main {
-  max-height: 90vh;
+  grid-area: main;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -97,10 +102,11 @@ ul {
 }
 
 footer {
-  display: flex;
+  grid-area: footer;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .page-arrow-prev {
