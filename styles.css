@@ -152,3 +152,23 @@ nav {
   color: #4d4d4d;
   width: 60vw;
 }
+
+.left1x {
+  padding-left: 2rem;
+}
+
+.left2x {
+  padding-left: 4rem;
+}
+
+.left3x {
+  padding-left: 6rem;
+}
+
+.left4x {
+  padding-left: 8rem;
+}
+
+.left5x {
+  padding-left: 10rem;
+}
