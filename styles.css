@@ -133,6 +133,7 @@ ul {
 footer {
   grid-area: footer;
   display: flex;
+  justify-content: center;
 }
 
 nav {
