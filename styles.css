@@ -41,7 +41,7 @@ svg {
     "main"
     "footer";
   grid-template-rows: 0.7fr 10fr 1.3fr;
-  height: 100%;
+  height: 100vh;
   /* height: -webkit-fill-available; */
   background-image: url("./assets/imgs/bgFondo.png");
   background-size: cover;
