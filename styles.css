@@ -13,7 +13,7 @@ html,
 body {
   height: 100%;
   background-color: #ffbd5e;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
 }
 
 img,
@@ -41,8 +41,8 @@ svg {
     "main"
     "footer";
   grid-template-rows: 0.7fr 10fr 1.3fr;
-  height: 100vh;
-  height: -webkit-fill-available;
+  height: 100%;
+  /* height: -webkit-fill-available; */
   background-image: url("./assets/imgs/bgFondo.png");
   background-size: cover;
   background-position: center;
