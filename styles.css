@@ -40,7 +40,7 @@ svg {
     "main"
     "footer";
   grid-template-rows: 0.7fr 10fr 1.3fr;
-  height: 100vh;
+  height: 95vh;
   background-image: url("./assets/imgs/bgFondo.png");
   background-size: cover;
   background-position: center;
